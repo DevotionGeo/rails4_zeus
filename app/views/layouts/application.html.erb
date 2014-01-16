@@ -19,6 +19,15 @@
     </header>
     <div id="main" role="main">
       <div class="container">
+      <% if params[:controller] == 'admin' %>
+          <header class="navbar">
+              <nav class="navbar-inner">
+                <div class="container">
+                  <%= render 'layouts/admin_nav' %>
+                </div>
+              </nav>
+            </header>
+          <% end %>
         <div class="content">
            <div class="row">
             <div class="span12">

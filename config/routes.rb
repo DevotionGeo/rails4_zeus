@@ -1,6 +1,10 @@
 Myapp::Application.routes.draw do
   
   
+  get "admin/dashboard"
+  get "admin/campign"
+  get "admin/media"
+  get "admin/leads"
   get "pages/home"
   get "pages/faq"
   get "pages/contact"
