@@ -1,6 +1,10 @@
 Myapp::Application.routes.draw do
   
   
+  get "pages/home"
+  get "pages/faq"
+  get "pages/contact"
+  get "pages/demo"
   authenticated :user do
     root to: 'home#index', as: :authenticated_root
   end

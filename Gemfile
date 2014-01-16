@@ -9,6 +9,7 @@ gem "therubyracer", platforms: :ruby
 gem "jquery-rails"
 gem "turbolinks"
 gem "jbuilder", "~> 1.2"
+
 group :development do
   gem "guard-rspec"
   gem "pry"
@@ -30,7 +31,7 @@ group :test do
   gem "rb-inotify", "~> 0.9"
 end
 
-gem "bootstrap-sass", "~> 2.3.2.1"
+gem "bootstrap-sass", "~> 3.0.3.0"
 gem "font-awesome-sass-rails"
 gem "simple_form", github: "plataformatec/simple_form"
 gem "devise", "~> 3.0.0"
